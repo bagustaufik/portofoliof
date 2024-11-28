@@ -1,0 +1,108 @@
+/* Background */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* Font modern */
+}
+
+.background {
+    background: linear-gradient(135deg, #66a6ff, #89f7fe);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Calculator Container */
+.calculator-container {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Gradien lembut */
+    border-radius: 20px;
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.calculator-container:hover {
+    transform: translateY(-5px); /* Efek hover */
+}
+
+/* Title */
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+    margin-top: 0;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace; /* Font seperti layar kalkulator */
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Transparan */
+    text-align: right;
+    outline: none;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(145deg, #4caf50, #3e8e41);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.operation {
+    background: linear-gradient(145deg, #ffa726, #f57c00); /* Warna operasi */
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button.equals {
+    grid-column: span 4;
+    background: linear-gradient(145deg, #2196f3, #1e88e5);
+}
+
+button.equals:hover {
+    background: linear-gradient(145deg, #1976d2, #1565c0);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .calculator-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>My Portofolio</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Bagus1.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#skill">My Skill</a></li>
+                        <li class="page-scroll"><a href="#service">Experience</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>Bagus Taufik Hidayat</h1>
+                    <div class="page-scroll">
+                        <p class="job-title" id="job-title">Network Engineer</p>
+                        <a href="#contact" class="btn btn-fill "height="120" width="80">Hire me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border" height="80" width="120">Explore more</a>
+                    </div>
+                </div>
+                
+                <script>
+                    const jobTitles = ["Network Engineer", "IT Support", "Administration", "IT Infrastruktur", "Programmer","IT Enthusiast"];
+                    let index = 0;
+                    function changeJobTitle() {
+                        document.getElementById("job-title").innerText = jobTitles[index];
+                        index = (index + 1) % jobTitles.length;
+                    }
+                
+                    setInterval(changeJobTitle, 2000); // Ganti setiap 2 detik
+                </script>
+                
+                <div class="col-md-6 text-right">
+                    <img src="#" alt="Bagus">
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hi! I’m Bagus Taufik Hidayat, an IT enthusiast specializing in network engineering and cybersecurity. I’m passionate about leveraging technology to solve real-world problems and continuously expanding my skills in cloud infrastructure, IT systems, and Networking. Currently pursuing a degree in Informatics Engineering, I’m always eager to take on new challenges and contribute innovative solutions in the tech industry.</p>
+                        <a href="assets/img/CVBagus.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section id="skill" class="site-section section-skill">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skill</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                    <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="500" style="background:#fff">
+                        <!-- <h4 style="text-align:left;color:#09203a">Languages and Databases</h4> -->
+                        <p style="text-align:center;">
+                          <img src="assets/img/logocisco.png" height="100&quot;" width="170">
+                          <img src="assets/img/logoaws.png" alt="vectorlogo.zone" height="100" width="200">
+                          <img src="assets/img/logoidcloud.png"  height="120" width="150">                          
+                          <img src="assets/img/logohtml.png" alt="upload.wikimedia.org" height="120" width="160">
+                          <img src="assets/img/logocss.png"  height="120" width="120">
+                          <img src="assets/img/logoja.png" alt="F5_Networks-Logo" height="120&quot;" width="150";>  
+                          </p>
+                          <p><img src="assets/img/logomikrotik.jpg"  height="70" width="300">
+                            <img src="assets/img/logogithub.png" alt="F5_Networks-Logo" height="120&quot;" width="150";>
+                          </p>
+                          <p><img src="assets/img/white.jpg"  height="70" width="100"></p>
+                        </div>
+            </div>
+        </section><!-- /.secton-skills -->
+        <section class="site-section section-services overlay text-center">
+            <section id="service"></section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <h3>Experience</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/logoteknisi.png" alt="Front End Developer" height="50" width="60">
+                            <h4>Technical Assistant</h4>
+                            <p>Responsible for network installation, configuration, and maintenance. supporting senior technicians in hardware repairs, implementing security protocols. providing user training, and contributing to IT infrastructure projects to ensure efficient and secure operations.
+                            </p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/logoadmin3.png"  height="50" width="60">
+                            <h4>Admin Quality Control</h4>
+                            <p>Experienced in quality control administration, overseeing personal protective equipment compliance, managing document archiving, recording inspection results, reporting production issues, preparing ISO:9001 audit documents, and coordinating quality-related correspondence and internal communications.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="" alt="">
+                            <h4></h4>
+                            <p></p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
+
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Galery</h3>
+                    <img src="assets/img/lines.svg"  class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/manajemen1.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Website Manajemen Sistem Informasi</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="assets/projek/manajemen karyawan/manajemen.html"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/login.png"height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Membuat Halaman Login</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="assets/projek/login/login.html"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/kalkulator.png" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Website Kalkulator</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="assets/projek/kalkulator/kalkulator.html"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikathtml.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Pengenalan Progam HTML</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.sololearn.com/certificates/CC-BPLDVXBY"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikatcss.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Pengenalan Program CSS</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.sololearn.com/certificates/CC-IYNBKXWB"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikatjavascript.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Pengenalan JavaScript</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.sololearn.com/certificates/CC-TEVWNWP4"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikatintermediate.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>JavaScript Intermediate</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.sololearn.com/certificates/CC-SCKDETEB"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikatkarate.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Juara 2 Karate Kabupaten</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="assets/img/sertifikatkarate.jpg"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/sertifikatpkl.jpg" height="50" width="60" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Praktek Kerja Lapangan</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="assets/img/pkl.pdf"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
+
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <style>
+                    /* Gaya untuk container form */
+                    form {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        background-color: #f9f9f9;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+                
+                    /* Gaya untuk input dan textarea */
+                    .form-control {
+                        width: 100%;
+                        padding: 12px;
+                        margin: 10px 0;
+                        border: 1px solid #ddd;
+                        border-radius: 8px;
+                        font-size: 16px;
+                        transition: border-color 0.3s;
+                        height: 50px;
+                    }
+                
+                    .form-control:focus {
+                        border-color: #007bff;
+                        outline: none;
+                    }
+                
+                    /* Gaya untuk tombol */
+                    .btn-border {
+                        width: 100%;
+                        padding: 12px;
+                        font-size: 15px;
+                        color: #fff;
+                        border: none;
+                        background-color: #007bff;
+                        border-radius: 7px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+                    }
+                
+                    .btn-border:hover {
+                        background-color: #0056b3;
+                    }
+                
+                    /* Gaya untuk ikon di tombol */
+                    .glyphicon-send {
+                        margin-left: 8px;
+                        transition: transform 0.3s;
+                    }
+                
+                    .btn-border:hover .glyphicon-send {
+                        transform: translateX(5px);
+                    }
+                
+                    /* Gaya untuk responsif */
+                    @media (max-width: 576px) {
+                        .row {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                </style>
+                
+                <form onsubmit="event.preventDefault(); sendMessage();">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" id="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="message" class="form-control" placeholder="Message"  required ></textarea>                        
+                        </div>
+                    </div>
+                    <button class="btn btn-border" type="submit" >Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                    <h10>*Setelah menekan hire me akan otomatis masuk ke pesan telegram saya</h10>
+                </form>
+                                
+                <script>
+                function sendMessage() {
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+                    
+                    const chat_id = '1427941613'; // Gantilah dengan ID chat kamu
+                    const token = '8130861783:AAGrsNitkCC2z3yCDXVXY6yQEzHdFxhDg1Q'; // Gantilah dengan token bot kamu
+                    const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+                    
+                    fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(text)}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.ok) {
+                                alert('Pesan terkirim ke Telegram!');
+                                document.querySelector("form").reset(); // Mengosongkan form setelah pengiriman berhasil
+                            } else {
+                                alert('Gagal mengirim pesan.');
+                            }
+                        })
+                        .catch(error => console.error('Error:', error));
+                }
+                </script>
+                
+            </div>
+        </section><!-- /.section-form -->
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/manajemen2.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Membuat Website Sistem Informasi Manajemen Karyawan</h4>
+            <p>Dalam tugas UTS kita membuat sebuah projek yaitu membuat website sistem informasi manajemen karyawan yang berguna untuk memudahkan menajemen dalam mengelola karyawanya karena disini kita akan dibuat mudah dalam melihat absensi karyawan, dari ijin, cuti dan siapa saja yang tidak hadir. </p>
+          </div>
+          <div class="modal-footer">
+            <a href="assets/projek/manajemen karyawan/manajemen.html" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/kalkulator.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Website Kalkulator</h4>
+            <p>Membuat aplikasi website kalkulator, dimana untuk mempermudah perhitungan, disini juga saya membuat aplikasiya dari html, css dan javascript.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="assets/projek/kalkulator/kalkulator.html" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/login.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Membuat Halaman Login</h4>
+            <p>Membuat halaman login dengan program html, css, dan javascript. tujuanya adalah agar kita dapat mengetahui dan memahami dari program ini, kemudian kita juga menambahkan background untuk memperindahnya.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="assets/projek/login/login.html" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/sertifikathtml.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Pengenalan Program Html</h4>
+            <p>Sertifikat HTML di SoloLearn diberikan setelah menyelesaikan kursus yang mencakup materi dasar hingga lanjutan HTML. Peserta mengikuti pelatihan dengan latihan interaktif dan harus lulus ujian di akhir kursus untuk mendapatkan sertifikat. Sertifikat ini dapat meningkatkan kredibilitas di bidang pengembangan web.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.sololearn.com/certificates/CC-BPLDVXBY" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/sertifikatcss.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Pengenalan Program CSS</h4>
+            <p>Sertifikat CSS di SoloLearn diberikan setelah menyelesaikan kursus yang mengajarkan styling halaman web menggunakan CSS. Kursus mencakup topik seperti selektor, properti, layout, dan responsivitas. Peserta harus mengikuti pelatihan dan lulus ujian di akhir kursus untuk mendapatkan sertifikat, yang dapat memperkuat keterampilan di bidang desain web.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.sololearn.com/certificates/CC-IYNBKXWB" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/sertifikatjavascript.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Pengenalan Program Java Script</h4>
+            <p>Sertifikat JavaScript di SoloLearn diberikan setelah menyelesaikan kursus yang mengajarkan dasar-dasar pemrograman menggunakan JavaScript. Kursus ini mencakup topik seperti variabel, fungsi, perulangan, dan manipulasi DOM. Peserta harus mengikuti pelatihan dan lulus ujian di akhir kursus untuk mendapatkan sertifikat, yang dapat meningkatkan kemampuan dalam pengembangan web interaktif.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.sololearn.com/certificates/CC-TEVWNWP4" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem7" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/sertifikatintermediate.jpg" alt="">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Intermediate JavaScript</h4>
+              <p>Sertifikat Intermediate JavaScript di SoloLearn diberikan setelah menyelesaikan kursus tingkat menengah yang membahas konsep-konsep lebih lanjut dalam JavaScript. Kursus ini mencakup topik seperti objek, kelas, promise, asinkron, dan manipulasi data lebih kompleks. Peserta harus mengikuti pelatihan dan lulus ujian di akhir kursus untuk mendapatkan sertifikat, yang dapat meningkatkan keterampilan dalam pengembangan aplikasi web yang lebih dinamis dan efisien.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://www.sololearn.com/certificates/CC-SCKDETEB" class="btn btn-fill">Visit Page</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div id="portfolioItem8" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/sertifikatkarate.jpg" alt="">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Juara 2 Lomba Karate Kabupaten Pemalang</h4>
+              <p>Meraih Juara 2 dalam Lomba Karate Kabupaten Pemalang (Bobot 70+ kg), prestasi ini mencerminkan dedikasi, kerja keras, dan ketahanan fisik yang tinggi. Sebagai atlet karate, saya terus berusaha untuk berkembang dan berkompetisi dengan semangat yang tak kenal lelah.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="assets/img/sertifikatkarate.jpg" class="btn btn-fill">Visit Page</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      
+      <div id="portfolioItem9" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/sertifikatpkl.jpg" alt="">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Praktik Kerja Lapangan</h4>
+              <p>Praktik Kerja Lapangan di CV Mind Technology sebagai Asisten Teknisi Jaringan, bertanggung jawab dalam pembuatan topologi jaringan, pemasangan jaringan di gedung, serta konfigurasi proxy dan access point untuk memastikan konektivitas berjalan lancar. Pengalaman ini melatih kemampuan teknis, pemecahan masalah, dan kerjasama tim dalam lingkungan teknologi.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="assets/img/pkl.pdf" class="btn btn-fill">Visit Page</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
+</body>
+</html>

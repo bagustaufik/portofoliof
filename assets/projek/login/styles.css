@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('img/bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+.input-box input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Border lebih halus */
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Warna latar belakang transparan */
+    transition: 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #FF9F91; /* Warna fokus */
+    background-color: rgba(255, 255, 255, 0.2); /* Sedikit lebih terang saat fokus */
+}
+
+.input-box input {
+    width: 9 0%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-box .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: gray;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.options a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #FF9F91;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #FF7368;
+}
+.register {
+    background-color: #91CFF9;  /* Warna latar tombol Register */
+    width: 100%;  /* Lebar tombol mengikuti kontainer, 100% */
+    padding: 10px;  /* Padding yang sama seperti tombol Sign In */
+    margin: 10px 0;  /* Margin atas dan bawah agar konsisten */
+    border: none;  /* Menghapus border */
+    border-radius: 5px;  /* Memberikan sudut rounded */
+    font-size: 1rem;  /* Ukuran font tombol */
+    cursor: pointer;  /* Menampilkan pointer saat dihover */
+    text-align: center;  /* Menyusun teks agar berada di tengah */
+    transition: 0.3s;  /* Efek transisi saat hover */
+}
+
+.register:hover {
+    background-color: #68A2D9;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #ddd;
+}
